@@ -14,12 +14,12 @@ git config --global credential.helper store
 4. Clone repo and enter the token. 
 ```
 $ git clone https://github.com/user/repo
-Username for 'https://github.com': *user*
-Password for 'https://user@github.com': *token*
+Username for 'https://github.com': user
+Password for 'https://user@github.com': token
 ```
 
 5. Note that the token will be automatically stored in your home directory (as plaintext).
 ```
 $ cat ~/.git-credentials 
-https://*user*:*token*@github.com
+https://user:token@github.com
 ```
